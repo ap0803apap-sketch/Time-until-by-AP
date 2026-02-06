@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_menu"
+        android:title="Sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_date_created_old"
+                android:title="Date Created (Oldest)" />
+            <item
+                android:id="@+id/sort_date_created_new"
+                android:title="Date Created (Newest)" />
+            <item
+                android:id="@+id/sort_event_date_old"
+                android:title="Event Date (Oldest)" />
+            <item
+                android:id="@+id/sort_event_date_new"
+                android:title="Event Date (Newest)" />
+            <item
+                android:id="@+id/sort_name_a_z"
+                android:title="Name (A–Z)" />
+            <item
+                android:id="@+id/sort_name_z_a"
+                android:title="Name (Z–A)" />
+        </menu>
+    </item>
+
+</menu>

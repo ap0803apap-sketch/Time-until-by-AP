@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+-->
+<full-backup-content>
+
+    <!-- Backs up all Shared Preferences -->
+    <include domain="sharedpref" path="."/>
+
+    <!-- Backs up all databases (e.g., your SQLite event database) -->
+    <include domain="database" path="."/>
+
+    <!--
+    You can also exclude specific files if needed.
+    For example, to exclude a temporary settings file:
+    <exclude domain="sharedpref" path="temp_settings.xml"/>
+    -->
+
+</full-backup-content>
